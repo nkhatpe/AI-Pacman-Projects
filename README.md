@@ -31,10 +31,5 @@ Implementation of AI concepts using Berkeley's Pacman Projects. This series of p
 - State Space Search
 - Game Theory
 
-## Project Structure
-- `projects/`: Contains implementation files for each project
-- `test_cases/`: Test cases for verifying implementations
-- `docs/`: Project descriptions and requirements
-
 ## Academic Context
-These projects were completed as part of the Artificial Intelligence course at [Your University], focusing on practical implementation of AI concepts.
+These projects were completed as part of the Artificial Intelligence course at Binghamton University, focusing on practical implementation of AI concepts.
