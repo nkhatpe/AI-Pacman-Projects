@@ -1,0 +1,22 @@
+name: GitHub Classroom Workflow
+
+on: [push]
+
+permissions:
+  checks: write
+  actions: read
+  contents: read
+
+jobs:
+  build:
+    name: required questions
+    runs-on: ubuntu-20.04
+    strategy:
+      matrix:
+        python-version: ["3.6"]
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}
+      - uses: education/autograding@v1

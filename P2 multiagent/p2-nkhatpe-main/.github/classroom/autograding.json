@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Autograder",
+      "setup": "",
+      "run": "python3 autograder.py",
+      "input": "",
+      "output": "Question q1: 4/4\r\nQuestion q2: 5/5\r\nQuestion q3: 5/5\r\nQuestion q4: 5/5",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
